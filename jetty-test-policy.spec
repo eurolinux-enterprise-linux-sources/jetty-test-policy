@@ -1,6 +1,6 @@
 Name:           jetty-test-policy
 Version:        1.2
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Jetty test policy files
 License:        ASL 2.0 or EPL
 URL:            http://www.eclipse.org/jetty/
@@ -39,9 +39,6 @@ cp -p %{SOURCE2} %{SOURCE3} .
 %doc epl-v10.html LICENSE-2.0.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-10
-- Mass rebuild 2013-12-27
-
 * Tue Aug 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.2-9
 - Migrate away from mvn-rpmbuild
 
